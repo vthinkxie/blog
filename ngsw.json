@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1593260315110,
+  "timestamp": 1593267478850,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,15 +11,17 @@
         "ignoreVary": true
       },
       "urls": [
+        "/5-es2015.12ea4785398a478a8269.js",
+        "/5-es5.12ea4785398a478a8269.js",
         "/index.html",
-        "/main-es2015.2d50e4dcff444f70ac6b.js",
-        "/main-es5.2d50e4dcff444f70ac6b.js",
+        "/main-es2015.6d46291612e3f387ad49.js",
+        "/main-es5.6d46291612e3f387ad49.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.68d48aabdb6b1c191ff3.js",
         "/polyfills-es5.252a50c33dc2d9bcbb9c.js",
-        "/runtime-es2015.409e6590615fb48d139f.js",
-        "/runtime-es5.409e6590615fb48d139f.js",
-        "/styles.693caead0c0a48fbbcda.css"
+        "/runtime-es2015.ce941d68d30eeaab32f6.js",
+        "/runtime-es5.ce941d68d30eeaab32f6.js",
+        "/styles.88b089e02fb0645c7a3e.css"
       ],
       "patterns": []
     },
@@ -48,6 +50,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/5-es2015.12ea4785398a478a8269.js": "83b214b2cc53920220c6d40b5be6e9681a619735",
+    "/5-es5.12ea4785398a478a8269.js": "568e2972ca797f257d432774bf391872798c4fd1",
     "/assets/alibaba.png": "6a820dffa6b3563c316064057975a5e7efcca0cc",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -59,15 +63,15 @@
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/me.jpeg": "adeb0fb73b745013a8a995260d911fce8a8c9cf3",
     "/assets/tencent.png": "927b1a7761e49029fac7b608900e74506a475339",
-    "/index.html": "ffb5359922115171cdb9d70cdfc6bed64b34b675",
-    "/main-es2015.2d50e4dcff444f70ac6b.js": "3ef09628a5ae1f59e06ab6119676fd8434099505",
-    "/main-es5.2d50e4dcff444f70ac6b.js": "4a9684fb900b0be2ac7ad432f9b0e6c59018d025",
+    "/index.html": "5b410f1dc2bc4dc2aaadb37ea04620709a653567",
+    "/main-es2015.6d46291612e3f387ad49.js": "6eb86c13bf5442358dfca25981458fd78d5ede68",
+    "/main-es5.6d46291612e3f387ad49.js": "d09f6a993c1e2a015cbaabdd9ed591d484ba2a6f",
     "/manifest.webmanifest": "e14484a4f652e2f158ec8045c44ef1b6d61e9f2d",
     "/polyfills-es2015.68d48aabdb6b1c191ff3.js": "8c82037b5d825742c5fbd6488e5db79d153f0389",
     "/polyfills-es5.252a50c33dc2d9bcbb9c.js": "12beaefd96f69bb7743bd0a993bd333a13431620",
-    "/runtime-es2015.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/runtime-es5.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.693caead0c0a48fbbcda.css": "2a43839035629908ed00137bf76cf32ecb6032fd"
+    "/runtime-es2015.ce941d68d30eeaab32f6.js": "87f612a28322956486381a7979dbe077dbb87e8c",
+    "/runtime-es5.ce941d68d30eeaab32f6.js": "89709eadff0d8ebe106daab56a59d85a3b30d92f",
+    "/styles.88b089e02fb0645c7a3e.css": "8be29e57be507c421fbfa9bc22e1fa2e7c910607"
   },
   "navigationUrls": [
     {
