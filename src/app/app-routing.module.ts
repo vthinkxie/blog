@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from '@portfolio/home/home.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'blog', loadChildren: () => import('@portfolio/blog/blog.module').then(m => m.BlogModule) },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

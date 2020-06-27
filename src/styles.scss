@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import 'node_modules/@primer/css-next/markdown';
+@import 'node_modules/@primer/css-next/base';
 $main-bg-color: #ffffff;
 $main-text-color: #1d1d1f;
 $main-href-color: #0070cc;
@@ -14,18 +15,23 @@ body {
   overflow-x: hidden;
   display: flex;
   justify-content: center;
-  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-size: 14px;
   line-height: 1.33337;
   font-weight: 400;
-  letter-spacing: -.01em;
+  letter-spacing: -0.01em;
   background: $main-bg-color;
   color: $main-text-color;
   a {
     color: $main-href-color;
-    text-decoration: none;
     &:hover {
       color: lighten($main-href-color, 10%);
     }
+  }
+}
+.markdown-body {
+  img {
+    border-style: solid;
+    border-width: 0 64px;
+    border-color: transparent;
+    box-sizing: border-box;
   }
 }

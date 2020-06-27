@@ -1,0 +1,7 @@
+<section class="markdown-body">
+  <ul>
+    <li *ngFor="let article of listOfArticle">
+      <a [routerLink]="['article', article.number]">{{ article.title }}</a>
+    </li>
+  </ul>
+</section>

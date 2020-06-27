@@ -8,10 +8,16 @@ import { AppRoutingModule } from '@portfolio/app-routing.module';
 import { HeaderComponent } from '@portfolio/header/header.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, FooterComponent, ContainerComponent, HomeComponent, HeaderComponent],
-  imports: [BrowserModule, AppRoutingModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
