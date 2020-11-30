@@ -227,7 +227,7 @@ export interface Issue {
   providedIn: 'root'
 })
 export class BlogService {
-  private repo = `vthinkxie/portfolio`;
+  private repo = `vthinkxie/blog`;
   private url = `https://api.github.com/repos/${this.repo}/issues`;
   listArticles() {
     return this.httpClient.get<Issue[]>(`${this.url}?state=open&creator=vthinkxie`);
