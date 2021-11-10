@@ -27,7 +27,6 @@ export class ArticleComponent implements OnInit, OnDestroy {
     });
   }
   ngOnDestroy() {
-    this.destroy$.next();
     this.destroy$.complete();
   }
 }
